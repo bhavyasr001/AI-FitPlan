@@ -13,16 +13,19 @@ Export Functionality: Download workout and diet plans as text files.
 
 # 🔐 Authentication System
 
-Sign In & Sign Up Implementation
+# Sign In & Sign Up Implementation
 
 The application features a comprehensive authentication system with dual functionality:
 
 Sign In Process
 
-Email/Password Authentication: Users can sign in using their registered email and password.
-Password Verification: Secure password checking using hashed passwords stored in database.
-JWT Token Generation: Upon successful authentication, a JWT token is created and stored in session.
-Session Management: User authentication state is maintained throughout the session.
+Email/Password Authentication: Users can sign in using their registered email and password
+
+Password Verification: Secure password checking using hashed passwords stored in database
+
+JWT Token Generation: Upon successful authentication, a JWT token is created and stored in session
+
+Session Management: User authentication state is maintained throughout the session
 
 Sign Up Process
 
@@ -31,9 +34,13 @@ OTP-Based Verification: Secure account creation using email OTP verification.
 Multi-Step Registration:
 
 i. User fills registration form (name, email, password)
+
 ii. System checks for existing email addresses
+
 iii. OTP is generated and sent to user's email
+
 iv. User enters OTP for verification
+
 v. Account is created upon successful OTP verification
 
 Email Integration: Automated OTP email sending using SMTP
