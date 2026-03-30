@@ -2,7 +2,7 @@
 
 An intelligent fitness application that generates personalized workout and dietary plans using AI, featuring secure user authentication and comprehensive profile management.
 
-🚀 Features
+# 🚀 Features
 
 * AI-Powered Plans – Generate personalized workout and diet plans using Hugging Face models
   
@@ -22,7 +22,7 @@ An intelligent fitness application that generates personalized workout and dieta
 
 The application features a comprehensive authentication system with dual functionality:
 
-## Sign In Process
+### Sign In Process
   
   * Email & Password authentication
     
@@ -32,7 +32,7 @@ The application features a comprehensive authentication system with dual functio
     
   * Session management to maintain login state
     
-## Sign Up Process
+### Sign Up Process
   
   * OTP-based email verification
     
@@ -49,13 +49,13 @@ The application features a comprehensive authentication system with dual functio
     
 * Database Architecture
   
-## SQLite Database Setup
+### SQLite Database Setup
 
 * Database File: users.db
   
 * Lightweight and efficient storage system
   
-## 📋 Users Table Schema
+### 📋 Users Table Schema
 
 CREATE TABLE IF NOT EXISTS users (
 
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS users (
     
 );
 
-## 🔒 Security Features
+### 🔒 Security Features
 
 * 🔐 Password hashing using Werkzeug (generate_password_hash)
   
@@ -91,19 +91,19 @@ CREATE TABLE IF NOT EXISTS users (
 
 # 🔄 Authentication Flow
 
-## 🆕 Sign Up Flow
+### 🆕 Sign Up Flow
 
 User Form → Email Check → OTP Generation → Email Send 
 → OTP Verification → Account Creation → JWT Token → Dashboard
 
-## 🔑 Sign In Flow
+### 🔑 Sign In Flow
 
 User Credentials → Database Lookup → Password Verification 
 → JWT Token → Dashboard
 
 # 🔐 Security Implementation
 
-## 🔑 JWT Authentication
+### 🔑 JWT Authentication
 
 * Secure token generation using user details
 
@@ -111,7 +111,7 @@ User Credentials → Database Lookup → Password Verification
 
 * Stored in Streamlit session state
 
-# 🔢 OTP System
+### 🔢 OTP System
 
 * Random 6-digit OTP generation
   
@@ -119,7 +119,7 @@ User Credentials → Database Lookup → Password Verification
 
 * Session-based OTP verification
 
-# 🔒 Password Security
+### 🔒 Password Security
 
 * PBKDF2 hashing algorithm
   
@@ -173,11 +173,11 @@ User Credentials → Database Lookup → Password Verification
 
 # 🚀 Getting Started
 
-## 📥 1. Install Dependencies
+### 📥 1. Install Dependencies
 
 pip install -r requirements.txt
 
-## ⚙️ 2. Set Environment Variables
+### ⚙️ 2. Set Environment Variables
 
 Create a .env file:
 
@@ -191,11 +191,11 @@ EMAIL_USER=your_email@gmail.com
 
 EMAIL_PASSWORD=your_app_password
 
-## ▶️ 3. Run the Application
+### ▶️ 3. Run the Application
 
 streamlit run app.py
 
-## 🌐 4. Access the App
+### 🌐 4. Access the App
 
 Open your browser:
 
