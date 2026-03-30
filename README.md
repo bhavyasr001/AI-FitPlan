@@ -1,4 +1,4 @@
-# 🏋️‍♂️ FitPlan AI – AI-Powered Fitness Application
+# 🏋FitPlan AI – AI-Powered Fitness Application
 
 An intelligent fitness application that generates personalized workout and dietary plans using AI, featuring secure user authentication and comprehensive profile management.
 
@@ -146,12 +146,19 @@ User Credentials → Database Lookup → Password Verification
 # 📁 Project Structure
 
 ├── app.py              # Main application UI
+
 ├── auth.py             # Authentication logic (JWT, OTP)
+
 ├── database.py         # Database operations
+
 ├── email_utils.py      # Email handling (OTP sending)
+
 ├── model_api.py        # AI model integration
+
 ├── prompt_builder.py   # Workout plan prompts
+
 ├── diet_builder.py     # Diet plan prompts
+
 └── requirements.txt    # Dependencies
 
 # 🧠 Session Management
