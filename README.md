@@ -1,4 +1,4 @@
-🏋️‍♂️ FitPlan AI – AI-Powered Fitness Application
+# 🏋️‍♂️ FitPlan AI – AI-Powered Fitness Application
 
 An intelligent fitness application that generates personalized workout and dietary plans using AI, featuring secure user authentication and comprehensive profile management.
 
@@ -175,9 +175,13 @@ pip install -r requirements.txt
 Create a .env file:
 
 HUGGINGFACE_API_KEY=your_api_key
+
 EMAIL_HOST=smtp.gmail.com
+
 EMAIL_PORT=587
+
 EMAIL_USER=your_email@gmail.com
+
 EMAIL_PASSWORD=your_app_password
 
 ## ▶️ 3. Run the Application
